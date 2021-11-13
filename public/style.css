@@ -1,13 +1,66 @@
-/*empty*/
-.columnf {
-    float: left;
-    width: 33.33%;
+body {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 23px;
+    font-style: italic;
+}
+.alogener{
+text-transform: uppercase; font-weight: bold;  color: #8B0000;
+}
+#sektion1{
+    background-color: black;
+    color: beige;
     padding: 5px;
+    margin: 5px 10px;
+    border: 10px solid #00FFFF;
+    border-style: groove;
+    border-radius: 25px
+}
+#betalninagsaltenativ{
+    background-color: darkolivegreen;
+    color: beige;
+    padding: 5px;
+    margin: 5px 10px;
+    border: 5px solid #DAA520;
+    border-style: dotted;
+    border-radius: 25px
+
+}
+/*.button{
+    padding: 5px;
+    margin: 5px 10px;
+}*/
+.button:hover {
+background-color: darkblue; cursor:progress;
+
 }
 
-/* Clear floats after image containers */
-.radd::after {
-    content: "";
-    clear: both;
-    display: table;
+.bild{
+    padding: 5px;
+    margin: 10px;
+
+}
+#sidhuvud{
+    padding: 5px;
+    margin: 5px 10px;
+    border-radius: 25px;
+
+}
+#sidhuvudbild{
+    opacity: 0.5;
+    width: 100%;
+    height: 250px;
+
+}
+h1{
+    position: absolute;
+    padding-left: 350px;
+
+}
+.rad{
+    display: grid;
+    padding: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+#rubrik2{
+    padding-left: 475px;
 }

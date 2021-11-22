@@ -25,10 +25,7 @@ text-transform: uppercase; font-weight: bold;  color: #8B0000;
     border-radius: 25px
 
 }
-/*.button{
-    padding: 5px;
-    margin: 5px 10px;
-}*/
+
 .button:hover {
 background-color: darkblue; cursor:progress;
 
@@ -39,6 +36,7 @@ background-color: darkblue; cursor:progress;
     margin: 10px;
 
 }
+
 #sidhuvud{
     padding: 5px;
     margin: 5px 10px;
